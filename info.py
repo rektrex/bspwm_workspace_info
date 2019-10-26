@@ -15,6 +15,9 @@ non_existent_notification = "<span foreground='" + colors['non-existent'] + "'>ï
 bspwm_status = os.popen('bspc wm -g').read().split(':')[1:-3]
 bspwm_status = list(map(lambda x: x[0], bspwm_status))
 
+last_visible = 1
+last_invisibile = 1
+
 if 'O' in bspwm_status:
     last_visible = len(bspwm_status) - bspwm_status[::-1].index('O')
 
