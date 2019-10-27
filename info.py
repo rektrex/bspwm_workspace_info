@@ -4,7 +4,7 @@ import os
 
 colors = {
         'visible': '#88c563',
-        'invisible': '#dfdfdf',
+        'invisible': '#212121',
         'non-existent': '#e76d6d',
         }
 
